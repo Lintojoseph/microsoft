@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bodystyle{
+    width: 90%;
+    margin: 0 auto;
+}
+.logostyle{
+    height: 40px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 450px;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    top: 0;
+    color: black;
+    text-align: right;
+}
+.carousel-caption h3{
+    color: black;
+    text-align: right;
+
+}
+.carousel-caption p{
+    text-align: right;
+    color: black;
+}
+.carousel-caption button{
+    color: azure;
+    background: black;
+    font-size: 15px;
+    padding: 11px 47px;
+    border: none;
+    position: absolute;
+    right: 0;
+}
+main{
+    margin: 40px 0;
+}
+.card{
+    border: none!important;
+}
+.card body{
+    padding: 5px 0!important;
+}
+.mstyle{
+    width: 100%;
+    height: 450px;
+    background-image: url("https://images.hindustantimes.com/img/2022/09/21/1600x900/Screenshot_2022-09-21_122959_1663745420070_1663745435227_1663745435227.png");
+    background-size: 100% 100%;
+    margin: 20px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 70px;
+}
+button{
+    color: azure;
+    background: black;
+    font-size: 15px;
+    padding: 11px 47px;
+    border: none;
+
+}
+.btmcards{
+    margin: 50px 0;
+}
+.social{
+    margin-bottom: 40px;
+}
+footer{
+    background-color: antiquewhite;
+    padding: 40px 0;
+}
+footer li{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
